@@ -62,17 +62,31 @@ py -m venv .venv
 py -m pip install --upgrade -r requirements.txt
 ```
 
-### Step 2D - Optional: Verify .venv Setup
-
-```shell
-py -m datafun_venv_checker.venv_checker
-```
-
-### Step 2E - Run the initial project script
+## Module 2
+- Create folder named utils in the root folder.
+- Create file named logger.py
+- Copy file from professor's directory into own logger.py file
+- Create folder named scripts in the root folder.
+- Create file named data_prep.py
+- Copy file from professor's directory into own data_prep.py file (make sure all file names are lowercase and check spelling)
+- Execute python script data_prep.py (I had to install pandas and restart terminal to run this)
 
 ```shell
 py scripts/data_prep.py
 ```
+
+- Add-Commit-Push to GitHub
+
+```shell
+git add .
+git commit -m "Update Readme File"
+git push
+```
+
+- Update Readme File
+
+## What's Next?
+- Coming soon!
 
 -----
 
