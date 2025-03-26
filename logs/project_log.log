@@ -13,3 +13,26 @@
 2025-03-20 22:04:30.392 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-benp\smart-store-benp\data\raw\products_data.csv.
 2025-03-20 22:04:30.402 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-benp\smart-store-benp\data\raw\sales_data.csv.
 2025-03-20 22:04:30.420 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-25 22:04:11.902 | INFO     | __main__:main:162 - ==================================
+2025-03-25 22:04:11.902 | INFO     | __main__:main:163 - STARTING prepare_customers_data.py
+2025-03-25 22:04:11.903 | INFO     | __main__:main:164 - ==================================
+2025-03-25 22:04:11.903 | INFO     | __main__:main:166 - Root project folder: C:\Projects\smart-store-benp\smart-store-benp
+2025-03-25 22:04:11.903 | INFO     | __main__:main:167 - data / raw folder: C:\Projects\smart-store-benp\smart-store-benp\data\raw
+2025-03-25 22:04:11.903 | INFO     | __main__:main:168 - data / prepared folder: C:\Projects\smart-store-benp\smart-store-benp\data\prepared
+2025-03-25 22:04:11.903 | INFO     | __main__:main:169 - scripts folder: C:\Projects\smart-store-benp\smart-store-benp\scripts
+2025-03-25 22:04:11.903 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=customers_data.csv
+2025-03-25 22:04:11.904 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Projects\smart-store-benp\smart-store-benp\data\raw\customers_data.csv
+2025-03-25 22:04:11.909 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 11 rows and 6 columns
+2025-03-25 22:04:11.910 | INFO     | __main__:main:178 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyStatus, RewardDollars
+2025-03-25 22:04:11.910 | INFO     | __main__:main:179 - Initial dataframe shape: (11, 6)
+2025-03-25 22:04:11.912 | INFO     | __main__:remove_duplicates:98 - FUNCTION START: remove_duplicates with dataframe shape=(11, 6)
+2025-03-25 22:04:11.917 | INFO     | __main__:remove_duplicates:102 - Removed 0 duplicate rows
+2025-03-25 22:04:11.917 | INFO     | __main__:remove_duplicates:103 - 11 records remaining after removing duplicates.
+2025-03-25 22:04:11.917 | INFO     | __main__:handle_missing_values:117 - FUNCTION START: handle_missing_values with dataframe shape=(11, 6)
+2025-03-25 22:04:11.917 | INFO     | __main__:handle_missing_values:121 - Total missing values before handling: 0
+2025-03-25 22:04:11.918 | INFO     | __main__:handle_missing_values:130 - Total missing values after handling: 0
+2025-03-25 22:04:11.918 | INFO     | __main__:handle_missing_values:131 - 11 records remaining after handling missing values.
+2025-03-25 22:04:11.918 | INFO     | __main__:remove_outliers:145 - FUNCTION START: remove_outliers with dataframe shape=(11, 6)
+2025-03-25 22:04:11.918 | INFO     | __main__:remove_outliers:153 - Removed 0 outlier rows
+2025-03-25 22:04:11.918 | INFO     | __main__:remove_outliers:154 - 11 records remaining after removing outliers.
+2025-03-25 22:04:11.920 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(11, 6)
