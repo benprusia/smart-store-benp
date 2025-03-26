@@ -387,3 +387,54 @@ dtype: int64
 2025-03-25 22:29:04.907 | INFO     | __main__:main:264 - ==================================
 2025-03-25 22:29:04.907 | INFO     | __main__:main:265 - FINISHED prepare_products_data.py
 2025-03-25 22:29:04.907 | INFO     | __main__:main:266 - ==================================
+2025-03-25 22:35:09.799 | INFO     | __main__:main:227 - ==================================
+2025-03-25 22:35:09.799 | INFO     | __main__:main:228 - STARTING prepare_sales_data.py
+2025-03-25 22:35:09.799 | INFO     | __main__:main:229 - ==================================
+2025-03-25 22:35:09.800 | INFO     | __main__:main:231 - Root project folder: C:\Projects\smart-store-benp\smart-store-benp
+2025-03-25 22:35:09.800 | INFO     | __main__:main:232 - data / raw folder: C:\Projects\smart-store-benp\smart-store-benp\data\raw
+2025-03-25 22:35:09.800 | INFO     | __main__:main:233 - data / prepared folder: C:\Projects\smart-store-benp\smart-store-benp\data\prepared
+2025-03-25 22:35:09.800 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-25 22:35:09.800 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-benp\smart-store-benp\data\raw\sales_data.csv
+2025-03-25 22:35:09.818 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 97 rows and 9 columns
+2025-03-25 22:35:09.818 | INFO     | __main__:main:242 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, SalesCommission, Salesperson
+2025-03-25 22:35:09.819 | INFO     | __main__:main:243 - Initial dataframe shape: (97, 9)
+2025-03-25 22:35:09.820 | INFO     | __main__:main:252 - Cleaned column names: TransactionID -> transactionid, SaleDate -> saledate, CustomerID -> customerid, ProductID -> productid, StoreID -> storeid, CampaignID -> campaignid, SaleAmount -> saleamount, SalesCommission -> salescommission, Salesperson -> salesperson
+2025-03-25 22:35:09.820 | INFO     | __main__:remove_duplicates:96 - FUNCTION START: remove_duplicates with dataframe shape=(97, 9)
+2025-03-25 22:35:09.821 | INFO     | __main__:remove_duplicates:106 - Removed 2 duplicate rows
+2025-03-25 22:35:09.822 | INFO     | __main__:remove_duplicates:107 - 95 records remaining after removing duplicates.
+2025-03-25 22:35:09.822 | INFO     | __main__:handle_missing_values:121 - FUNCTION START: handle_missing_values with dataframe shape=(95, 9)
+2025-03-25 22:35:09.822 | INFO     | __main__:handle_missing_values:126 - Missing values by column before handling:
+transactionid      0
+saledate           0
+customerid         0
+productid          0
+storeid            0
+campaignid         0
+saleamount         0
+salescommission    0
+salesperson        0
+dtype: int64
+2025-03-25 22:35:09.825 | INFO     | __main__:handle_missing_values:140 - Missing values by column after handling:
+transactionid      0
+saledate           0
+customerid         0
+productid          0
+storeid            0
+campaignid         0
+saleamount         0
+salescommission    0
+salesperson        0
+dtype: int64
+2025-03-25 22:35:09.826 | INFO     | __main__:handle_missing_values:141 - 95 records remaining after handling missing values.
+2025-03-25 22:35:09.826 | INFO     | __main__:standardize_formats:188 - FUNCTION START: standardize_formats with dataframe shape=(95, 9)
+2025-03-25 22:35:09.827 | INFO     | __main__:standardize_formats:198 - Completed standardizing formats
+2025-03-25 22:35:09.827 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(95, 9)
+2025-03-25 22:35:09.827 | INFO     | __main__:remove_outliers:174 - Removed 0 outlier rows
+2025-03-25 22:35:09.827 | INFO     | __main__:remove_outliers:175 - 95 records remaining after removing outliers.
+2025-03-25 22:35:09.829 | INFO     | __main__:validate_data:211 - FUNCTION START: validate_data with dataframe shape=(95, 9)
+2025-03-25 22:35:09.830 | INFO     | __main__:validate_data:220 - Data validation complete
+2025-03-25 22:35:09.830 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=sales_data_prepared.csv, dataframe shape=(95, 9)
+2025-03-25 22:35:09.835 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\smart-store-benp\smart-store-benp\data\prepared\sales_data_prepared.csv
+2025-03-25 22:35:09.836 | INFO     | __main__:main:264 - ==================================
+2025-03-25 22:35:09.836 | INFO     | __main__:main:265 - FINISHED prepare_sales_data.py
+2025-03-25 22:35:09.836 | INFO     | __main__:main:266 - ==================================
