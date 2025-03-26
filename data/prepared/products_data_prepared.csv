@@ -8,4 +8,4 @@ productid,productname,category,unitprice,stockreorderqty,supplier
 107,jacket,Clothing,67.02,4,Started
 108,protector,Electronics,12.56,3,Carnivale
 101,tv,Electronics,399.99,9,Ivana
-105,tv,Electronics,499.19,1,Joe
+101,tv,Electronics,399.99,1,Joe
