@@ -84,6 +84,7 @@ git push
 ```
 
 - Module 3 Addition
+- Added/ran test data scrubber, 13 tests ran OK
 - Looked at previous function in py script to add str.upper().str.strip()
 - 
 
