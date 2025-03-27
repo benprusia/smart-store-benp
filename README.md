@@ -83,6 +83,10 @@ git commit -m "Update Readme File"
 git push
 ```
 
+- Module 3 Addition
+- Looked at previous function in py script to add str.upper().str.strip()
+- 
+
 - Update Readme File
 
 ## What's Next?
