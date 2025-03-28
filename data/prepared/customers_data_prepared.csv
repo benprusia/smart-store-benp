@@ -11,3 +11,4 @@ CustomerID,Name,Region,JoinDate,LoyaltyStatus,RewardDollars,StandardDateTime
 1010,Hermione Granger,East,12/9/2022,Gold,20,2022-12-09
 1011,Hermione Grager,East,12/9/2022,Gold,22,2022-12-09
 1011,Tiffany James,South,6/30/2023,Premier,10,2023-06-30
+1011,Tiffany Jamesf,South,6/30/2024,Premier,10,2024-06-30
