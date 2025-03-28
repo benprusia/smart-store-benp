@@ -9,4 +9,4 @@ ProductID,ProductName,Category,UnitPrice,StockReorderQty,Supplier
 108,protector,Electronics,12.56,3,Carnivale
 101,tv,Electronics,399.99,9,Ivana
 101,tv,Electronics,399.99,9,Ivana
-102,tv,Electronics,,,Johnson
+102,tv,Electronics,199.99,6,Johnson
