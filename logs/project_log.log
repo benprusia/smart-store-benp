@@ -478,3 +478,21 @@ dtype: int64
 2025-03-27 20:33:18.200 | INFO     | __main__:main:85 - ========================
 2025-03-27 20:33:18.200 | INFO     | __main__:main:86 - Starting PRODUCTS prep
 2025-03-27 20:33:18.200 | INFO     | __main__:main:87 - ========================
+2025-03-27 20:38:02.292 | INFO     | __main__:main:59 - ======================
+2025-03-27 20:38:02.294 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-03-27 20:38:02.294 | INFO     | __main__:main:61 - ======================
+2025-03-27 20:38:02.294 | INFO     | __main__:main:63 - ========================
+2025-03-27 20:38:02.294 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-03-27 20:38:02.295 | INFO     | __main__:main:65 - ========================
+2025-03-27 20:38:02.312 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-benp\smart-store-benp\data\prepared\customers_data_prepared.csv
+2025-03-27 20:38:02.312 | INFO     | __main__:main:85 - ========================
+2025-03-27 20:38:02.312 | INFO     | __main__:main:86 - Starting PRODUCTS prep
+2025-03-27 20:38:02.313 | INFO     | __main__:main:87 - ========================
+2025-03-27 20:38:02.364 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-benp\smart-store-benp\data\prepared\products_data_prepared.csv
+2025-03-27 20:38:02.364 | INFO     | __main__:main:103 - ========================
+2025-03-27 20:38:02.364 | INFO     | __main__:main:104 - Starting SALES prep
+2025-03-27 20:38:02.366 | INFO     | __main__:main:105 - ========================
+2025-03-27 20:38:02.421 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-benp\smart-store-benp\data\prepared\sales_data_prepared.csv
+2025-03-27 20:38:02.436 | INFO     | __main__:main:124 - ======================
+2025-03-27 20:38:02.445 | INFO     | __main__:main:125 - FINISHED data_prep.py
+2025-03-27 20:38:02.449 | INFO     | __main__:main:126 - ======================
