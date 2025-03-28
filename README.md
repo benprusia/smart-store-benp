@@ -86,7 +86,8 @@ git push
 - Module 3 Addition
 - Added/ran test data scrubber, 13 tests ran OK
 - Looked at previous function in py script to add str.upper().str.strip()
-- 
+- Edited the raw data files as there was a trackback error that occured becasue the raw data had null values
+- After this looks like it ran okay
 
 - Update Readme File
 
