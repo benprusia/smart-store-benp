@@ -438,3 +438,23 @@ dtype: int64
 2025-03-25 22:35:09.836 | INFO     | __main__:main:264 - ==================================
 2025-03-25 22:35:09.836 | INFO     | __main__:main:265 - FINISHED prepare_sales_data.py
 2025-03-25 22:35:09.836 | INFO     | __main__:main:266 - ==================================
+2025-03-27 19:55:21.559 | INFO     | __main__:main:59 - ======================
+2025-03-27 19:55:21.560 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-03-27 19:55:21.560 | INFO     | __main__:main:61 - ======================
+2025-03-27 19:55:21.560 | INFO     | __main__:main:63 - ========================
+2025-03-27 19:55:21.560 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-03-27 19:55:21.560 | INFO     | __main__:main:65 - ========================
+2025-03-27 19:55:21.589 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-benp\smart-store-benp\data\prepared\customers_data_prepared.csv
+2025-03-27 19:55:21.589 | INFO     | __main__:main:85 - ========================
+2025-03-27 19:55:21.590 | INFO     | __main__:main:86 - Starting PRODUCTS prep
+2025-03-27 19:55:21.590 | INFO     | __main__:main:87 - ========================
+2025-03-27 20:06:22.736 | INFO     | __main__:main:59 - ======================
+2025-03-27 20:06:22.736 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-03-27 20:06:22.736 | INFO     | __main__:main:61 - ======================
+2025-03-27 20:06:22.737 | INFO     | __main__:main:63 - ========================
+2025-03-27 20:06:22.737 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-03-27 20:06:22.737 | INFO     | __main__:main:65 - ========================
+2025-03-27 20:06:22.753 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-benp\smart-store-benp\data\prepared\customers_data_prepared.csv
+2025-03-27 20:06:22.755 | INFO     | __main__:main:85 - ========================
+2025-03-27 20:06:22.755 | INFO     | __main__:main:86 - Starting PRODUCTS prep
+2025-03-27 20:06:22.755 | INFO     | __main__:main:87 - ========================
