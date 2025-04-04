@@ -17,7 +17,7 @@ PREPARED_DATA_DIR = PROJECT_ROOT / "data" / "prepared"
 def create_schema(cursor: sqlite3.Cursor) -> None:
     """Create tables in the data warehouse if they don't exist."""
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS customers (
+        CREATE TABLE IF NOT EXISTS customer (
             customer_id INTEGER PRIMARY KEY,
             name TEXT,
             region TEXT,
@@ -28,7 +28,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
     """)
     
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS products (
+        CREATE TABLE IF NOT EXISTS product (
             product_id INTEGER PRIMARY KEY,
             product_name TEXT,
             category TEXT,
@@ -39,7 +39,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
     """)
     
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS sales (
+        CREATE TABLE IF NOT EXISTS sale (
             transaction_id INTEGER PRIMARY KEY,
             sale_date DATE,
             customer_id INTEGER,
@@ -49,28 +49,28 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             sales_amount REAL,
             sales_commission REAL,
             salesperson TEXT,
-            FOREIGN KEY (customer_id) REFERENCES customers (customer_id),
-            FOREIGN KEY (product_id) REFERENCES products (product_id)
+            FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
+            FOREIGN KEY (product_id) REFERENCES product (product_id)
         )
     """)
 
 def delete_existing_records(cursor: sqlite3.Cursor) -> None:
     """Delete all existing records from the customer, product, and sale tables."""
-    cursor.execute("DELETE FROM customers")
-    cursor.execute("DELETE FROM products")
-    cursor.execute("DELETE FROM sales")
+    cursor.execute("DELETE FROM customer")
+    cursor.execute("DELETE FROM product")
+    cursor.execute("DELETE FROM sale")
 
 def insert_customers(customers_df: pd.DataFrame, cursor: sqlite3.Cursor) -> None:
     """Insert customer data into the customer table."""
-    customers_df.to_sql("customers", cursor.connection, if_exists="append", index=False)
+    customers_df.to_sql("customer", cursor.connection, if_exists="append", index=False)
 
 def insert_products(products_df: pd.DataFrame, cursor: sqlite3.Cursor) -> None:
     """Insert product data into the product table."""
-    products_df.to_sql("products", cursor.connection, if_exists="append", index=False)
+    products_df.to_sql("product", cursor.connection, if_exists="append", index=False)
 
 def insert_sales(sales_df: pd.DataFrame, cursor: sqlite3.Cursor) -> None:
     """Insert sales data into the sales table."""
-    sales_df.to_sql("sales", cursor.connection, if_exists="append", index=False)
+    sales_df.to_sql("sale", cursor.connection, if_exists="append", index=False)
 
 def load_data_to_db() -> None:
     try:
