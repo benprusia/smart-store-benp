@@ -1,4 +1,4 @@
-ProductID,ProductName,Category,UnitPrice,StockReorderQty,Supplier
+product_id,product_name,category,unit_price,stock_reorder,supplier
 101,laptop,Electronics,793.12,2,Sorny
 102,hoodie,Clothing,39.1,10,Abibas
 103,cable,Electronics,22.76,6,Magnetbox

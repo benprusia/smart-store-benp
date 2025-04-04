@@ -1,4 +1,4 @@
-TransactionID,SaleDate,CustomerID,ProductID,StoreID,CampaignID,SaleAmount,SalesCommission,Salesperson
+transaction_id,sale_date,customer_id,product_id,store_id,campaign_id,sales_amount,sales_commission,salesperson
 550,1/6/2024,1008,102,404,0,39.1,0.05,Ben
 551,1/6/2024,1009,105,403,0,19.78,0.06,Andy
 552,1/16/2024,1004,107,404,0,335.1,0.05,Ben
