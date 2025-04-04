@@ -91,6 +91,13 @@ git push
 
 - Update Readme File
 
+- Module 4 Addition
+- Copied script from the Topic P4 assignment page
+- Ran into issues with path - changed DW_Path 
+- Could not append table after first commit (had to delete smart_sales.db and create new) - only first table populated
+- Had a column error, renamed it on the prepared file
+- Ran successful the last time after deleting the initial db file 
+
 ## What's Next?
 - Coming soon!
 
