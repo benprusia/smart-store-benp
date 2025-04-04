@@ -7,6 +7,6 @@ product_id,product_name,category,unit_price,stock_reorder,supplier
 106,controller,Electronics,88.98,6,Panaphonics
 107,jacket,Clothing,67.02,4,Started
 108,protector,Electronics,12.56,3,Carnivale
-101,tv,Electronics,399.99,9,Ivana
-101,tv,Electronics,399.99,9,Ivana
-102,tv,Electronics,199.99,6,Johnson
+109,tv,Electronics,399.99,9,Ivana
+110,tv,Electronics,399.99,9,Ivana
+111,tv,Electronics,199.99,6,Johnson
