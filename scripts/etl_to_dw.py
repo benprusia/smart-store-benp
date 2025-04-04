@@ -9,9 +9,10 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.append(str(PROJECT_ROOT))
 
 # Constants
-DW_DIR = pathlib.Path("data").joinpath("dw")
-DB_PATH = DW_DIR.joinpath("smart_sales.db")
-PREPARED_DATA_DIR = pathlib.Path("data").joinpath("prepared")
+DW_DIR = PROJECT_ROOT / "data" / "dw"
+DW_DIR.mkdir(parents=True, exist_ok=True)
+DB_PATH = DW_DIR / "smart_sales.db"
+PREPARED_DATA_DIR = PROJECT_ROOT / "data" / "prepared"
 
 def create_schema(cursor: sqlite3.Cursor) -> None:
     """Create tables in the data warehouse if they don't exist."""
