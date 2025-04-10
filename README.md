@@ -98,6 +98,29 @@ git push
 - Had a column error, renamed it on the prepared file
 - Ran successful the last time after deleting the initial db file 
 
+- Module 5 Addition
+- SQL script in Power BI to sort top customers:
+
+```shell
+= Odbc.Query("dsn=SmartSalesDSN", "SELECT c.name, SUM(s.sales_amount) AS total_spent
+FROM sale s
+JOIN customer c ON s.customer_id = c.customer_id
+GROUP BY c.name
+ORDER BY total_spent DESC")
+```
+
+- Dashboard Design Choices:
+- Did a slicer for the sales date as well as the product category per the module instructions
+
+- Screenshot (Power BI Model View):
+- ![alt text](image.png)
+
+- Screenshot (Query Results):
+- ![alt text](image-1.png)
+
+- Screenshot (Final Dashboard):
+- ![alt text](image-2.png)
+
 ## What's Next?
 - Coming soon!
 
