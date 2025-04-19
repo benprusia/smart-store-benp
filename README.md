@@ -121,6 +121,20 @@ ORDER BY total_spent DESC")
 - Screenshot (Final Dashboard):
 - ![alt text](image-2.png)
 
+- Module 6 Addition
+- Visualize the data a little further in Power BI
+- Not too good with scripting to I chose to do this in Power BI
+- The idea here is to figure sales by category so that we can see who is buying what and when, and by what stores so that each store is appropriatly stocked with what is selling in their stores.
+
+- Screenshot (Sales by Customer ID and Category):
+- ![alt text](image-3.png)
+
+- Screenshot (sales by Month and Category):
+- ![alt text](image-4.png)
+
+- Screenshot (Sales by Store ID and also Store ID/Category):
+- ![alt text](image-5.png)
+
 ## What's Next?
 - Coming soon!
 
